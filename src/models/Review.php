@@ -1,5 +1,5 @@
 <?php
-namespace Westaddy\AzzonReviews\Models;
+namespace Westaddy\Reviews\Models;
 use Illuminate\Database\Eloquent\Model;
 class Review extends Model{
     protected $table = 'reviews';

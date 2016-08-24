@@ -1,6 +1,6 @@
 <?php
 
-namespace Westaddy\AzzonReviews;
+namespace Westaddy\Reviews;
 
 trait Review {
 
@@ -9,7 +9,7 @@ trait Review {
     }
 
     public static function createReview($product_id, $comment, $rating,$ip,$user_id=1) {
-        $review = new \Westaddy\AzzonReviews\Models\Review;
+        $review = new \Westaddy\Reviews\Models\Review;
         $review->product_id=$product_id;
         $review->user_id=$user_id;
         $review->comment=$comment;
@@ -28,7 +28,7 @@ trait Review {
         $product->save();
     }
     public static function getReviews($product_id) {
-        $reviews = \Westaddy\AzzonReviews\Models\Review::where('product_id', $product_id)->get();
+        $reviews = \Westaddy\Reviews\Models\Review::where('product_id', $product_id)->get();
         return $reviews;
     }
 
