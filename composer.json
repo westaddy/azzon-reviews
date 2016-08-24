@@ -9,7 +9,7 @@
             "email": "oabdulsalam@ascellon.ng"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {},
     "autoload": {
