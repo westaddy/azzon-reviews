@@ -1,0 +1,19 @@
+{
+    "name": "westaddy/azzon-reviews",
+    "description": "This package is meant to create a nice review",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdulsalam",
+            "email": "oabdulsalam@ascellon.ng"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Westaddy\\AzzonReviews\\": "src/"
+        }
+    }
+}
