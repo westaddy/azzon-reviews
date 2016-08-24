@@ -1,5 +1,5 @@
 <?php
-namespace Westaddy\AzzonReviews;
+namespace Westaddy\Reviews;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

@@ -1,5 +1,5 @@
 {
-    "name": "westaddy/azzon-reviews",
+    "name": "westaddy/reviews",
     "description": "This package is meant to create a nice review",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Westaddy\\AzzonReviews\\": "src/"
+            "Westaddy\\Reviews\\": "src/"
         }
     }
 }
