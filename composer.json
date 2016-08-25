@@ -11,7 +11,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {},
+    "require": {
+        "westaddy/reviews": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Westaddy\\Reviews\\": "src/"
