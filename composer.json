@@ -12,11 +12,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "westaddy/reviews": "dev-master"
+        
     },
     "autoload": {
         "psr-4": {
-            "Westaddy\\Reviews\\": "src/"
+            "Westaddy\\Reviews\\": "src"
         }
     }
 }
