@@ -14,7 +14,7 @@ class CreateReviewTable extends Migration{
             $table->text('comment');
             $table->timestamps();
         });
-        DB::statement("ALTER TABLE reviews ADD ip_address VARBINARY(16) UNIQUE");
+        DB::statement("ALTER TABLE reviews ADD ip_address VARBINARY(16) ");
     }
 
     public function down()
